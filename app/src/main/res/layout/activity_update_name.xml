@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@drawable/maubtngc"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textAllCaps="true"
+        android:layout_gravity="center"
+        android:text="Sửa thông tin"/>
+    <EditText
+        android:id="@+id/edt_nameNo"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:drawablePadding="15dp"
+        android:background="@drawable/vienlogin"
+        android:drawableLeft="@drawable/name_no"
+        android:fontFamily="serif"
+        android:hint="Tên khách hàng"
+        android:paddingLeft="10dp"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/black"
+        android:textSize="20sp"/>
+    <EditText
+        android:id="@+id/edt_SoTienNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="40dp"
+        android:layout_marginTop="5dp"
+        android:drawableLeft="@drawable/ghichu_no"
+        android:background="@drawable/vienlogin"
+        android:fontFamily="serif"
+        android:hint="Nội dung ghi chú"
+        android:paddingLeft="10dp"
+        android:drawablePadding="15dp"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/black"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/btn_UpdateTT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/backgroud_bt"
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"
+        android:text="Cập nhật"
+        android:textColor="@color/black"/>
+
+</LinearLayout>

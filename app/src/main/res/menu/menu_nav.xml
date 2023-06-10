@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_home"
+            android:title="@string/nav_Home"
+            android:icon="@drawable/ic_home"/>
+        <item android:id="@+id/nav_Mathang"
+            android:title="Mặt hàng"
+            android:icon="@drawable/ic_shop"/>
+        <item android:id="@+id/nav_SoGhiNo"
+            android:title="Ghi chú"
+            android:icon="@drawable/ic_mathang"/>
+
+    </group>
+
+    <item android:title="@string/nav_account" >
+        <menu>
+            <item android:id="@+id/nav_my_profile"
+                android:title="Cập nhật thông tin"
+                android:icon="@drawable/ic_change_password"/>
+            <item android:id="@+id/nav_change_password"
+                android:title="Thay đổi mật khẩu"
+                android:icon="@drawable/item_pass"/>
+            <item android:id="@+id/outlogin"
+                android:title="Đăng Xuất"
+                android:icon="@drawable/ic_logout_24"/>
+        </menu>
+    </item>
+</menu>

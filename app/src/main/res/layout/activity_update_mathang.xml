@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="30dp"
+    android:background="@drawable/icmauback"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textAllCaps="true"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"
+        android:text="Cập nhật Mặt hàng"/>
+    <EditText
+        android:id="@+id/edt_UDNameMH"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:drawablePadding="15dp"
+        android:drawableLeft="@drawable/name_hang"
+        android:background="@drawable/vienlogin"
+        android:fontFamily="serif"
+        android:hint="Tên mặt hàng"
+        android:paddingLeft="10dp"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/black"
+        android:textSize="20sp" />
+    <EditText
+        android:id="@+id/edt_UDGiaTienMH"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:drawablePadding="15dp"
+        android:drawableLeft="@drawable/gia_tien_mh"
+        android:background="@drawable/vienlogin"
+        android:fontFamily="serif"
+        android:hint="Giá tiền mặt hàng"
+        android:paddingLeft="10dp"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/black"
+        android:textSize="20sp"  />
+    <EditText
+        android:id="@+id/edt_UDSoLuongMH"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:drawablePadding="15dp"
+        android:drawableLeft="@drawable/soluong_mh"
+        android:background="@drawable/vienlogin"
+        android:fontFamily="serif"
+        android:hint="Số lượng mặt hàng hiện tại"
+        android:paddingLeft="10dp"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/black"
+        android:textSize="20sp"  />
+
+    <Button
+        android:id="@+id/btn_UpdateMH"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:background="@drawable/maubtnmh"
+        android:textSize="16sp"
+        android:text="Cập nhật thông tin mặt hàng"
+        android:textColor="@color/black"/>
+
+
+</LinearLayout>

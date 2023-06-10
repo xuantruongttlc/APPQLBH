@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "130109273629",
+    "project_id": "thhhh-63eba",
+    "storage_bucket": "thhhh-63eba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:130109273629:android:6c26e11ad4d2a16fc538f4",
+        "android_client_info": {
+          "package_name": "com.example.thulai"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "130109273629-orvltbs1f5n9sj5bnpr393ijp7vgmn37.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgZZq06fcZPrjjbTrFOu6bb25UIvW1YD0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "130109273629-orvltbs1f5n9sj5bnpr393ijp7vgmn37.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
